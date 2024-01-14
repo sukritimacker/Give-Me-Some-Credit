@@ -28,8 +28,10 @@ The GiveMeSomeCredit Kaggle dataset contains the delinquency data and some relev
   - Other features have a null rate of **0%** (completely filled)
 </br>
 - Correlation
-![correlation](./image/correlation.png)
-</br>
+<p align="center">
+  <img src="./images/correlation.png" />
+</p>
+
 - Other Insights
   - All the predictor columns are **numerical** and **continuous**.
   - The minimum age of the people is **21** (ignoring entries with age 0).
