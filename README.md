@@ -28,7 +28,7 @@ The GiveMeSomeCredit Kaggle dataset contains the delinquency data and some relev
   - Other features have a null rate of **0%** (completely filled)
 </br>
 - Correlation
-
+![correlation](./image/correlation.png)
 </br>
 - Other Insights
   - All the predictor columns are **numerical** and **continuous**.
