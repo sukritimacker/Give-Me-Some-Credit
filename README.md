@@ -10,16 +10,16 @@ Build a delinquency prediction model that lenders can use to help make the best 
 The GiveMeSomeCredit Kaggle dataset contains the delinquency data and some relevant features of 150000 borrowers. The target column to predict is the SeriousDlqin2yrs column which indicates **whether the person experienced 90 days past due delinquency or worse in the last 2 years.**
 
 - Predictors available
-  - **RevolvingUtilizationOfUnsecuredLines**
-  - **age**
-  - **DebtRatio**
-  - **MonthlyIncome**
-  - **NumberOfOpenCreditLinesAndLoans**
-  - **NumberRealEstateLoansOrLines**
-  - **NumberOfDependents**
-  - **NumberOfTime30-59DaysPastDueNotWorse**
-  - **NumberOfTime60-89DaysPastDueNotWorse**
-  - **NumberOfTimes90DaysLate**
+  - RevolvingUtilizationOfUnsecuredLines
+  - age
+  - DebtRatio
+  - MonthlyIncome
+  - NumberOfOpenCreditLinesAndLoans
+  - NumberRealEstateLoansOrLines
+  - NumberOfDependents
+  - NumberOfTime30-59DaysPastDueNotWorse
+  - NumberOfTime60-89DaysPastDueNotWorse
+  - NumberOfTimes90DaysLate
  
 ## Observation
 - Null Rates
