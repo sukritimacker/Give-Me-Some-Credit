@@ -26,16 +26,20 @@ The GiveMeSomeCredit Kaggle dataset contains the delinquency data and some relev
   - **MonthlyIncome** and its derived features (**MonthlyIncomePerDependent, MonthlyIncomePerCreditLine**) have a null rate of about **19.8%**
   - **NumberOfDependents** has a null rate of about **2.6%**
   - Other features have a null rate of **0%** (completely filled)
-</br>
-- Correlation
-<p align="center">
-  <img src="./images/correlation.png" />
-</p>
 
-- Other Insights
+- Insights
   - All the predictor columns are **numerical** and **continuous**.
   - The minimum age of the people is **21** (ignoring entries with age 0).
   - Delinquency rates show an **increasing** trend with increase in **DPDs**, **credit utilisation**, **number of dependents** and **number of real estate loans** for the major part.
+  - Delinquency reduces slightly as income increases
+  - Delinquency increases with the number of dependents
+  - The number of loan products doesn't seem to affect delinquency and neither does debt ratio
+  - Delinquency decreases slightly with age
+  - The number of real estate loans doesn't seem to affect delinquency
+  - Delinquency increases with an increase in unsecured loan utilization
+  - DPD columns are very highly correlated
+  - The number of open credit lines and loans is correlated to some extent with the number of real estate loans and credit lines
+  - The rest of the variables don't show significant correlations
   - Delinquency rates show a **decreasing** trend with an increase in **age** and **monthly income** and its derived features for the major part.
   - All the DPD columns are highly inter-correlated. Hence, only the one with the highest predictive power (**NumberOfTimeGreaterThan30DPD**) is used as a feature.
   - The MonthltIncomePerDependent column has a lower predictive value than the original features used in its creation. Hence, it is not used as a feature.
